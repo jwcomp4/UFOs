@@ -55,11 +55,17 @@ function handleClick() {
         // if no date entered, the filteredData will just be the original table.
     };
         buildTable(filteredData);
-
-    d3.selectAll("#filter-btn").on("click", handleClick);
-    // Here the selector string contains the HTML tag (will assign unique ID in the HTML called "#filter-btn")
-    // this links code directly to the filter button.
-    // by adding .on("click", handleClick);, telling D3 to execute the handleClick() function when the button 
-    // with the id filter-btn is clicked.
     
 }
+
+// Attach an even to listen for the form button
+d3.selectAll("#filter-btn").on("click", handleClick);
+// Here the selector string contains the HTML tag (will assign unique ID in the HTML called "#filter-btn")
+// this links code directly to the filter button.
+// by adding .on("click", handleClick);, telling D3 to execute the handleClick() function when the button 
+// with the id filter-btn is clicked.
+
+// Build a table when the table loads:
+
+buildTable(tableData);
+
