@@ -1,8 +1,8 @@
-# Module 11 Challenge: UFO Analysis
+# UFO Analysis
 
 ## Overview 
 
- - This challenge adds functionality to a JavaScript app that allows for more granular filtering and more in-depth analysis of UFO sightings. 
+ - This analysis adds functionality to a JavaScript app that allows for more granular filtering and more in-depth analysis of UFO sightings. 
  - Using JavaScript allows for dynamic presentation of the data using multiple filters.
  - Finally, the JavaScript app is integrated with HTML making the data anlysis and visualization available online. 
     - This HTML file also uses CSS and Bootstrap styling. 
